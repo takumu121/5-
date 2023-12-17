@@ -28,8 +28,18 @@ async function main() {
     //     DrawText("無限ループ",300,300)
     // }
     
-    //待て
-    DrawText("まte",300,300)
-    await Sleep(1000)
-    DrawText("まった",200,300)
+    // //待て
+    // DrawText("まte",300,300)
+    // await Sleep(1000)
+    // DrawText("まった",200,300)
+
+    //無限ループ
+    // for (let cnt = 0;;cnt ++){
+    //     DrawText("無限ループ",300,300 + cnt)
+
+    //     await Sleep(1)
+    // }
+
+    //四角形表示
+    DrawRect(100,100,200,200)
     }
