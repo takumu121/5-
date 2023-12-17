@@ -7,5 +7,15 @@ async function main() {
     DrawText(1 + 1,300,300)
     DrawText(1 / 2,300,300)
     DrawText(5 % 4,300,300)
+
+    //変数
+    let a = 1 
+    DrawText (a ,300,400)
+
+    a = 2
+    DrawText (a ,300,400)
+
+    a -= 1
+    DrawText (a ,300,400)
     
     }
